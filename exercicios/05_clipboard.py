@@ -2,4 +2,6 @@
 
 import pandas as pd
 
-pd.read_clipboard()
+## Copia oque esta no CTRL + C
+
+df = pd.read_clipboard()
